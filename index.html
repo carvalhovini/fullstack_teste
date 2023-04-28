@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="background"></div>
+    <div class="content">
+<nav>
+  <ul>
+    <li><a href="index.php">Página Inicial</a></li>
+    <li><a href="avaliacoes.php">Avaliações</a></li>
+    <li><a href="contato.php">Contato</a></li>
+  </ul>
+</nav>
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    <title>Avaliação de Professores</title>
+  </head>
+  <body>
+    <header>
+      <h1>Avaliação de Professores</h1>
+    </header>
+
+    
+
+    <section class="form-section">
+      <h2>Formulário de Avaliação</h2>
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="prof">Nome do professor</label>
+        <input type="prof" id="prof" name="prof" required>
+
+        <label for="materia">Disciplina</label>
+        <input type="materia" id="materia" name="materia" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="rating">Avaliação:</label>
+        <select id="rating" name="rating" required>
+          <option value="">Selecione...</option>
+          <option value="excelente">Excelente</option>
+          <option value="bom">Bom</option>
+          <option value="regular">Regular</option>
+          <option value="ruim">Ruim</option>
+          <option value="horrivel">Horrivel</option>
+        </select>
+        
+        <label for="comments">Comentários:</label>
+        <textarea id="comments" name="comments"></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <div class="latest-reviews-box">
+      <h2>Últimas Avaliações</h2>
+      <ul>
+        <li>Nome do usuário - avaliação 1</li>
+        <li>Nome do usuário - avaliação 2</li>
+        <li>Nome do usuário - avaliação 3</li>
+        <li>Nome do usuário - avaliação 4</li>
+        <li>Nome do usuário - avaliação 5</li>
+      </ul>
+    </div>
+    <footer>
+      <p>&copy; 2023 Avaliação de Pessoas</p>
+    </footer>
+    
+
+
+    <script src="./main.js"></script>
+  </body>
+</div>
+</body>
+</html>
